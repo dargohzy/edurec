@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>EduRec System 2.0</title>
+        <meta name="description" content = "CS3240 Lab 3 Assignment">
+        <meta name="author" content = "Daryl Goh Zheng Yuan">
+        <link rel="stylesheet" type="text/css" href="css/labstyle.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!--Top Bar-->
+            <div class="top-bar">
+                <div class="top-bar-logo">
+                    <a href="dashboard.html"><img src="images/EduRec%20Logo%20Final.png" width="250"></a>
+                    <div class="top-bar-right">
+                        <div>
+                            AY2020/2021, SEMESTER 1, WEEK 5
+                        </div>
+                        <div id="top-bar-profile-pic">
+                            <img src="images/profile-pic.jpg">
+                        </div>
+                        <span>DARYL GOH</span>
+                        <div class="top-bar-icons">
+                            <div>
+                                <img src="images/notification.png" style="filter: invert(1)">
+                                <div>NOTIFICATIONS</div>
+                            </div>
+                            <div class="top-bar-icon">
+                                <img src="images/help.png" style="filter: invert(1)">
+                                <div>HELP</div>
+                            </div>
+                            <div class="top-bar-icon">
+                                <img src="images/logout.png" style="filter: invert(1)">
+                                <div>LOGOUT</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="weblinks">
+                    <a href="dashboard.html">DASHBOARD</a>
+                    <a href="academics.html">ACADEMICS</a>
+                    <a href="#financials">FINANCIALS</a>
+                    <a href="#personal-info">PERSONAL INFO</a>
+                    <a href="#about">ABOUT</a>
+                </div>
+            </div>
+            <!--End of Top Bar-->
+            <div class="modreg-wrapper">
+                <div class="panel" id="modreg-panel">
+                    <div class="modreg-menu-title">ModReg</div>
+                    <div class="modreg-menu">
+                        <div class="modreg-menu-item">
+                            <img src="images/dashboard.png">
+                            <span>Dashboard</span>
+                        </div>
+                        <div class="modreg-menu-item">
+                            <img src="images/info.png">
+                            <span>About</span>
+                        </div>
+                        <div class="modreg-menu-item">
+                            <img src="images/online-class.png">
+                            <span>My Classes</span>
+                        </div>
+                        <div class="modreg-menu-item">
+                            <img src="images/module.png">
+                            <span>Select Modules</span>
+                        </div>
+                        <div class="modreg-menu-item">
+                            <img src="images/request.png">
+                            <span>Submit Module Requests</span>
+                        </div>
+                        <div class="modreg-menu-item" id="modreg-menu-item-active">
+                            <img src="images/select.png">
+                            <span>Select Tutorials & Labs</span>
+                        </div>
+                        <div class="modreg-menu-item">
+                            <img src="images/swap-arrows.png">
+                            <span>Add & Swap Tutorials & Labs</span>
+                        </div>
+                        <div class="modreg-menu-item">
+                            <img src="images/drop.png">
+                            <span>Drop Classes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modreg-right-grid-container">
+                    <div class="panel">
+                        <div class="title">Timetable</div> 
+                        <img src="images/timetable-modreg.png">
+                    </div>
+                    <div class="modreg-mini-grid">
+                        <div id="module-colour-coded">
+                            <div class="module-colour-coded-info">
+                                <div class="module-colour-coded-block" id="CS3219"></div>
+                                <div>
+                                    <div class="module-code">CS3219 | 4 MCs</div>
+                                    <div>Software Engineering Design & Principles</div>
+                                </div>
+                            </div>
+                            <div class="module-colour-coded-info">
+                                <div class="module-colour-coded-block" id="CS3230"></div>
+                                <div>
+                                    <div class="module-code">CS32320 | 4 MCs</div>
+                                    <div>Design & Analysis of Algorithms</div>
+                                </div>
+                            </div>
+                            <div class="module-colour-coded-info">
+                                <div class="module-colour-coded-block" id="CS3240"></div>
+                                <div>
+                                    <div class="module-code">CS3240 | 4 MCs</div>
+                                    <div>Interaction Design</div>
+                                </div>
+                            </div>
+                            <div class="module-colour-coded-info">
+                                <div class="module-colour-coded-block" id="CS3241"></div>
+                                <div>
+                                    <div class="module-code">CS3241 | 4 MCs</div>
+                                    <div>Computer Graphics</div>
+                                </div>
+                            </div>
+                            <div class="module-colour-coded-info">
+                                <div class="module-colour-coded-block" id="NM3216"></div>
+                                <div>
+                                    <div class="module-code">NM3216 | 4 MCs</div>
+                                    <div>Game Design</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel" id="module-select">
+                            <div class="title">Selected</div>
+                            <ol>
+                                <li>
+                                    <div class="module-card" id="CS3230">
+                                        <span>CS3230 Tut[04]</span>
+                                        <span class="label2">Wed, 2PM-3PM</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="module-card" id="CS3219">
+                                        <span>CS3219 Tut[04]</span>
+                                        <span class="label2">Fri, 10AM-12PM</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="module-card" id="CS3230">
+                                        <span>CS3230 Tut[05]</span>
+                                        <span class="label2">Mon, 12PM-1PM</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="module-card" id="CS3240">
+                                        <span>CS3230 Tut[04]</span>
+                                        <span class="label2">Thurs, 10AM-12PM</span>
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="panel" id="module-select">
+                            <div class="title">Confirmed</div>
+                            <div class="module-card" id="CS3241">
+                                <span>CS3241 Tut[01]</span>
+                                <span class="label2">Mon, 10AM-12PM</span>
+                            </div>
+                            <div class="module-card" id="NM3216">
+                                <span>NM3216 Tut[W2]</span>
+                                <span class="label2">Tues, 6PM-8PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

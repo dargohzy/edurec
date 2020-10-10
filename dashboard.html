@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>EduRec System 2.0</title>
+        <meta name="description" content = "CS3240 Lab 3 Assignment">
+        <meta name="author" content = "Daryl Goh Zheng Yuan">
+        <link rel="stylesheet" type="text/css" href="css/labstyle.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!--Top Bar-->
+            <div class="top-bar">
+                <div class="top-bar-logo">
+                    <a href="dashboard.html"><img src="images/EduRec%20Logo%20Final.png" width="250"></a>
+                    <div class="top-bar-right">
+                        <div>
+                            AY2020/2021, SEMESTER 1, WEEK 5
+                        </div>
+                        <div id="top-bar-profile-pic">
+                            <img src="images/profile-pic.jpg">
+                        </div>
+                        <span>DARYL GOH</span>
+                        <div class="top-bar-icons">
+                            <div>
+                                <img src="images/notification.png" style="filter: invert(1)">
+                                <div>NOTIFICATIONS</div>
+                            </div>
+                            <div class="top-bar-icon">
+                                <img src="images/help.png" style="filter: invert(1)">
+                                <div>HELP</div>
+                            </div>
+                            <div class="top-bar-icon">
+                                <img src="images/logout.png" style="filter: invert(1)">
+                                <div>LOGOUT</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="weblinks">
+                    <a href="#dashboard">DASHBOARD</a>
+                    <a href="academics.html">ACADEMICS</a>
+                    <a href="#financials">FINANCIALS</a>
+                    <a href="#personal-info">PERSONAL INFO</a>
+                    <a href="#about">ABOUT</a>
+                </div>
+            </div>
+            <!--End of Top Bar-->
+            <div class="welcome">Welcome Back, Daryl.</div>
+            <!--Panel Container-->
+            <div class="dashboard">
+                <div class="big-left-container">
+                    <div class="panel-container">
+                        <div class="panel" id="profile-panel">
+                            <div class="profile-picture"><img src="images/profile-pic.jpg" width="100px"></div>
+                            <div class="name-matric">
+                                <div>Daryl Goh Zheng Yuan</div>
+                                <div>A0182740H</div>
+                            </div>
+                            <div class="small-text">
+                                <span class="label">Programme:</span>
+                                <span class="label2">B.A in Computing</span>
+                            </div>
+                            <div class="small-text">
+                                <span class="label">Course:</span>
+                                <span class="label2">Computer Science</span>
+                            </div>
+                            <div class="small-text">
+                                <span class="label">Minor:</span>
+                                <span class="label2">Media Development</span>
+                            </div>
+                            <hr>
+                            <!--Profile links-->
+                            <div class="weblinks"id="small-links">
+                                <a href="#edit-personal-info">Edit Personal Info</a>
+                            </div>
+                            <div class="weblinks" id="small-links">
+                                <a href="#critical-data">Verify My Critical Data</a>
+                            </div>
+                            <div class="weblinks" id="small-links">
+                                <a href="#help">Help</a>
+                            </div>
+                            <hr>
+                            <div class="weblinks" id="small-links"> 
+                                <a href="#signout">Sign Out</a>
+                            </div>
+                        </div>
+                        <!--End of Profile Panel-->
+                        <!--Academics Panel-->
+                        <div class="panel" id="academics-panel">
+                            <div class="top-panel">
+                                <div class="mini-panel" id="degree-progression">
+                                    <div class="title">Degree Progression</div>
+                                    <div class="small-text">
+                                        Trust yourself,  you know more than you think you do.
+                                    </div>
+                                    <div class="mcs-completed">
+                                        100 out of 160 MCs completed
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-bar-mini">
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mini-panel" id="modreg">
+                                    <a href="modreg.html" style="display: block; height: 100%; width: 100%;">
+                                        <div class="title">Module Registration</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="bottom-panel">
+                                <div class="mini-panel" id="examinations">
+                                    <div class="title">Examinations</div>
+                                    <div id="examinations-days">84</div>
+                                    <div class="small-text" id="examinations-small">Days to Finals</div>
+                                </div>
+                                <div class="mini-panel" id="reg-and-dec">
+                                    <div class="title">Registration & Declaration</div>
+                                </div>
+                                <div class="mini-panel" id="academic-records">
+                                    <div class="title">Academic Records</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End of Academics Panel-->
+                    </div>
+                    <!--Bottom Panels-->
+                    <div class="bottom-panel-container">
+                        <div class="panel" id="alerts">
+                            <div class="title">Alerts</div>
+                            <div id="alerts-inner">
+                                <div class="small-text">
+                                    <span>Check Exam Schedule</span>
+                                    <span>18/04/2021</span>
+                                </div>
+                                <hr>
+                                <div class="small-text">
+                                    <span>SMS Subscription</span>
+                                    <span>Overdue</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="panel" id="other-academic-links">
+                            <div class="title">Other Academic Links</div>
+                            <div class="weblinks" id="small-links">
+                                <a href="#edit-personal-info">Global Education</a>
+                            </div>
+                            <div class="weblinks" id="small-links">
+                                <a href="#edit-personal-info">Requirement Designation</a>
+                            </div>
+                            <div class="weblinks" id="small-links">
+                                <a href="#edit-personal-info">Commencement Registration</a>
+                            </div>
+                            <div class="weblinks" id="small-links">
+                                <a href="#edit-personal-info">Academic Plan Application / Designation</a>
+                            </div>
+                            <div class="weblinks" id="small-links">
+                                <a href="#edit-personal-info">Design Your Own Module</a>
+                            </div>
+                            <div class="weblinks" id="small-links">
+                                <a href="#edit-personal-info">Transcripts</a>
+                            </div>
+                        </div>
+                        <div class="panel" id="financials">
+                            <div class="title">Financials</div>
+                            <div class="small-text">
+                                <span>Current Status</span>
+                                <span class="label2">Unpaid</span>
+                            </div>
+                            <div class="small-text">
+                                <span>Amount Liable</span>
+                                <span class="label2">$4980.90</span>
+                            </div>
+                            <hr>
+                            <div>
+                                <div class="weblinks" id="small-links"><a href="#student-financials">Manage Student Financials</a></div>
+                                <div class="weblinks" id="small-links"><a href="#financial-aid">View Financial Aid</a></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--End Bottom Panels-->
+                </div>
+                <!--End of Panel Container-->
+                <!--Timetable Panel-->
+                <div class="panel" id="timetable">
+                    <div class="title">Timetable</div>
+                    <div><img src="images/timetable%20dashboard.png" id="timetable-dashboard"></div>
+                </div>
+                <!--End Timetable Panel-->
+            </div>
+        </div>
+    </body>
+</html>
